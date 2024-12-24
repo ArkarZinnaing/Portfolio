@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import Navbar2 from "./Navbar2"
 import {useState } from "react"

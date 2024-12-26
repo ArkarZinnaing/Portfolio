@@ -15,9 +15,11 @@ const Navbar2: React.FC<{ navOpen: boolean }> = ({ navOpen }) => {
     }
   };
 
-  useEffect(initActive, [navOpen]);
+  useEffect(() => {
+    initActive();
+  }, [navOpen]);
 
-  const activeCurrentLink = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleActiveLink = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const target = e.currentTarget;
     lastActiveLink.current?.classList.remove("active");
     target.classList.add("active");
@@ -29,23 +31,24 @@ const Navbar2: React.FC<{ navOpen: boolean }> = ({ navOpen }) => {
     { label: "Home", link: "#home", className: "nav-link active", ref: lastActiveLink },
     { label: "About", link: "#about", className: "nav-link" },
     { label: "Work", link: "#work", className: "nav-link" },
-    { label: "Contact", link: "#contact", className: "nav-link" },
+    { label: "Review", link: "#review", className: "nav-link"},
+    { label: "Content", link: "#content", className: "nav-link md:hidden" },
   ];
 
   return (
     <nav className={`navbar ${navOpen ? "active" : ""}`}>
-    {navItems.map(({ label, link, className, ref }, index) => (
+      {navItems.map(({ label, link, className, ref }, index) => (
         <a
-        key={index}
-        href={link}
-        className={className}
-        ref={ref}
-        onClick={activeCurrentLink}
+          key={index}
+          href={link}
+          className={className}
+          ref={ref}
+          onClick={handleActiveLink}
         >
-        {label}
+          {label}
         </a>
-    ))}
-    <div className="active-box" ref={activeBox}></div>
+      ))}
+      <div className="active-box" ref={activeBox}></div>
     </nav>
   );
 };

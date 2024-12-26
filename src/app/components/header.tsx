@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar2 from "./Navbar2";
 import { useState } from "react";
 
@@ -11,14 +12,14 @@ export default function NavHeader() {
       <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 my-3">
         {/* Logo */}
         <h1>
-          <a href="/my-app">
+          <Link href="/">
             <Image
               src="/logo.png"
               width={40}
               height={40}
               alt="logo"
             />
-          </a>
+          </Link>
         </h1>
 
         {/* Navbar Wrapper */}
@@ -38,12 +39,12 @@ export default function NavHeader() {
         </div>
 
         {/* Contact Button - Visible only in Desktop */}
-        <a
+        <Link
           href="#contact"
           className="hidden btn btn-secondary md:flex"
         >
           Contact Me
-        </a>
+        </Link>
       </div>
     </header>
   );

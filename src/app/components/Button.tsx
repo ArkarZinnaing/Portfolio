@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ButtonPrimary: React.FC<{
@@ -9,7 +10,7 @@ const ButtonPrimary: React.FC<{
 }> = ({ href, target = "_self", label, icon, classes = "" }) => {
   if (href) {
     return (
-      <a
+      <Link
         href={href}
         target={target}
         className={`btn btn-primary ${classes}`}
@@ -20,7 +21,7 @@ const ButtonPrimary: React.FC<{
             {icon}
           </span>
         )}
-      </a>
+      </Link>
     );
   }
   return (
@@ -44,7 +45,7 @@ const ButtonOutline: React.FC<{
 }> = ({ href, target = "_self", label, icon, classes = "" }) => {
   if (href) {
     return (
-      <a
+      <Link
         href={href}
         target={target}
         className={`btn btn-outline ${classes}`}
@@ -55,7 +56,7 @@ const ButtonOutline: React.FC<{
             {icon}
           </span>
         )}
-      </a>
+      </Link>
     );
   }
   return (

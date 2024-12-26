@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useRef, useEffect } from "react";
 
 const Navbar2: React.FC<{ navOpen: boolean }> = ({ navOpen }) => {
@@ -38,7 +39,7 @@ const Navbar2: React.FC<{ navOpen: boolean }> = ({ navOpen }) => {
   return (
     <nav className={`navbar ${navOpen ? "active" : ""}`}>
       {navItems.map(({ label, link, className, ref }, index) => (
-        <a
+        <Link
           key={index}
           href={link}
           className={className}
@@ -46,7 +47,7 @@ const Navbar2: React.FC<{ navOpen: boolean }> = ({ navOpen }) => {
           onClick={handleActiveLink}
         >
           {label}
-        </a>
+        </Link>
       ))}
       <div className="active-box" ref={activeBox}></div>
     </nav>

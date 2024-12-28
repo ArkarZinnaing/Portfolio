@@ -32,6 +32,7 @@ const Navbar2: React.FC<{ navOpen: boolean }> = ({ navOpen }) => {
     { label: "Home", link: "#home", className: "nav-link active", ref: lastActiveLink },
     { label: "About", link: "#about", className: "nav-link" },
     { label: "Work", link: "#work", className: "nav-link" },
+    { label: "Project", link: "#project", className: "nav-link" },
     { label: "Review", link: "#review", className: "nav-link"},
     { label: "Content", link: "#content", className: "nav-link md:hidden" },
   ];

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import { ButtonPrimary, ButtonOutline } from './Button';
+import { Cover } from "@/ui/cover";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
                 <div>
                     <div className='flex items-center gap-3'>
                         <figure className="img-box w-9 h-9 rounded-lg">
-                            <Image src="/logo.png" width={40} height={40} alt='Profile Image' className='img-cover'/>
+                            <Image src="/Go.png" width={40} height={40} alt='Profile Image' className='img-cover'/>
                         </figure>
 
                         <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide ">
@@ -23,8 +24,8 @@ const Hero = () => {
                             Available for work
                         </div>
                     </div>
-                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                        Building Scalable Modern Websites for the Future
+                    <h2 className="text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15] max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+                        Building Scalable Modern Websites for the <Cover>Warp Speed</Cover>
                     </h2>
                     <div className="flex items-center gap-3">
                         <ButtonPrimary 

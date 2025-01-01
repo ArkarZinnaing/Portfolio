@@ -68,7 +68,7 @@ const Footer = () => {
                         <ul>
                             {sitemap.map(({label, href}, key) => (
                                 <li key={key}>
-                                    <Link href={href} className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'>{label}</Link>
+                                    <Link href={href} className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up' rel="noopener noreferrer">{label}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -79,7 +79,7 @@ const Footer = () => {
                         <ul>
                             {socials.map(({label, href}, key) => (
                                 <li key={key}>
-                                    <a href={href} target="_blank" className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'>{label}</a>
+                                    <a href={href} target="_blank" rel="noopener noreferrer" className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'>{label}</a>
                                 </li>
                             ))}
                         </ul>
@@ -89,11 +89,11 @@ const Footer = () => {
 
             <div className="flex items-center justify-between pt-8 mb-8">
                 <Link href="/" className='logo reveal-up'>
-                    <Image src="/logo.png" alt='Logo' width={40} height={40}></Image>
+                    <Image src="/logo.png" alt='Logo' width={40} height={40} />
                 </Link>
 
                 <p className='text-zinc-500 text-sm reveal-up'>
-                    &copy; 2025 <span className='text-zinc-200'>SawPyaeSone</span>
+                    &copy; {new Date().getFullYear()} <span className='text-zinc-200'>SawPyaeSone</span>
                 </p>
             </div>
         </div>

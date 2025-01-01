@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
 };
 
 module.exports = {
+  reactStrictMode: false,
   images: {
     domains: ['assets.aceternity.com'],
   },

@@ -53,6 +53,9 @@ const works = [
   ];
 
 const Project = () => {
+  if (process.env.NODE_ENV === 'development') {
+    console.log('Client render:', works);
+  }
   return (
     <section id="project" className="section">
         <div className="container">
@@ -61,9 +64,9 @@ const Project = () => {
             </h2>
 
             <div className="grid gap-x-4 gap-y-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-                {works.map(({imgSrc, title, tags, projectLink}, key) => (
+                {works.map(({imgSrc, title, tags, projectLink}) => (
                     <ProjectCard 
-                        key={key}
+                        key={title}
                         imgSrc={imgSrc}
                         title={title}
                         tags={tags}

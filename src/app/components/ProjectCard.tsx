@@ -6,7 +6,7 @@ const ProjectCard: React.FC<{ imgSrc: string; title: string; tags?: string[]; pr
     {imgSrc, title, tags = [], projectLink = "#", classes =""}
 ) => {
   return (
-    <div className={"relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors" + classes}>
+    <div className={`relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}>
         <figure className="img-box aspect-square rounded-lg mb-4">
             <Image src={imgSrc} alt={title} className='img-cover' loading='lazy' width={500}
           height={500}/>

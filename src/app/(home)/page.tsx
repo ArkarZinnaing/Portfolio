@@ -17,24 +17,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Page() {
   useEffect(() => {
-    const elements = gsap.utils.toArray(".reveal-up");
+    if (typeof window !== "undefined") {
+      const elements = gsap.utils.toArray(".reveal-up");
 
-    elements.forEach((element) => {
-      if (element instanceof HTMLElement) {
-        gsap.to(element, {
-          scrollTrigger: {
-            trigger: element,
-            start: "-200 bottom",
-            end: "bottom 80%",
-            scrub: true,
-          },
-          y: 0,
-          opacity: 1,
-          duration: 1,
-          ease: "power2.out",
-        });
-      }
-    });
+      elements.forEach((element) => {
+        if (element instanceof HTMLElement) {
+          gsap.to(element, {
+            scrollTrigger: {
+              trigger: element,
+              start: "-200 bottom",
+              end: "bottom 80%",
+              scrub: true,
+            },
+            y: 0,
+            opacity: 1,
+            duration: 1,
+            ease: "power2.out",
+          });
+        }
+      });
+    }
   }, []);
 
   return (

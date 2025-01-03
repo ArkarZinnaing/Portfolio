@@ -119,10 +119,6 @@ body {
   @apply text-zinc-400
 }
 
-.reveal-up{
-  @apply translate-y-20 opacity-0;
-}
-
 @media (max-width: 767px) {
   .btn-secondary {
     display: none !important;

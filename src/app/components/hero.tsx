@@ -25,7 +25,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <h2 className="text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15] max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                        Building Scalable Modern Websites for the <Cover>Warp Speed</Cover>
+                        Building Scalable Modern Websites at <Cover>Warp Speed</Cover>
                     </h2>
                     <div className="flex items-center gap-3">
                         <ButtonPrimary 

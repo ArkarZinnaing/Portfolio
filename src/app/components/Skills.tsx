@@ -3,14 +3,14 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-      imgSrc: '/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
+      imgSrc: '/next-js.svg',
+      label: 'NextJS',
+      desc: 'React Framework'
     },
     {
-      imgSrc: '/css3.svg',
-      label: 'CSS',
-      desc: 'User Interface'
+      imgSrc: '/Typescript.svg',
+      label: 'TypeScript',
+      desc: 'Typed JavaScript'
     },
     {
       imgSrc: '/javascript.svg',
@@ -30,7 +30,7 @@ const skillItem = [
     {
       imgSrc: '/mongodb.svg',
       label: 'MongoDB',
-      desc: 'Database'
+      desc: 'NoSQL Database'
     },
     {
       imgSrc: '/react.svg',
@@ -42,17 +42,37 @@ const skillItem = [
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
+    {
+        imgSrc: '/php.svg',
+        label: 'PHP',
+        desc: 'Server-Side Scripting'
+    },
+    {
+        imgSrc: '/python.png',
+        label: 'Python',
+        desc: 'AI/Machine Learning'
+    },
+    {
+        imgSrc: '/mysql.svg',
+        label: 'MySQL',
+        desc: 'Relational Database'
+    },
+    {
+        imgSrc: '/django.svg',
+        label: 'Django',
+        desc: 'Web Framework'
+    },
   ];
 
 const Skills = () => {
   return (
     <section className='section'>
         <div className='container mt-5'>
-            <h2 className='headline-2'>
+            <h2 className='headline-2 reveal-up'>
                 Essentail Tools I use
             </h2>
 
-            <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+            <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
             Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
             </p>
 
@@ -64,6 +84,7 @@ const Skills = () => {
                             imgSrc={imgSrc}
                             label={label}
                             desc={desc}
+                            classes="reveal-up"
                         />
                     ))
                 }

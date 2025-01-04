@@ -1,7 +1,7 @@
 import React from 'react'
-import { ButtonPrimary } from './Button';
 import Link from 'next/link';
 import Image from 'next/image';
+import CopyButton from './Email';
 
 const sitemap = [
     {
@@ -59,7 +59,7 @@ const Footer = () => {
                         Let&apos;s work together today!
                     </h2>
 
-                    <ButtonPrimary label='Start Project' icon='chevron_right' classes='reveal-up'/>
+                    <CopyButton />
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 lg:pl-20">

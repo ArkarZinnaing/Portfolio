@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import { ButtonPrimary, ButtonOutline } from './Button';
 import { Cover } from "@/ui/cover";
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -28,10 +29,12 @@ const Hero = () => {
                         Building Scalable Modern Websites at <Cover>Warp Speed</Cover>
                     </h2>
                     <div className="flex items-center gap-3">
-                        <ButtonPrimary 
-                            label='Download CV'
-                            icon='download'
-                        />
+                        <Link href="/Saw-Pyae-Sone-Resume.pdf" download="Saw-Pyae-Sone-Resume.pdf">
+                            <ButtonPrimary 
+                                label='Download CV'
+                                icon='download'
+                            />
+                        </Link>
 
                         <ButtonOutline 
                             href="#about"

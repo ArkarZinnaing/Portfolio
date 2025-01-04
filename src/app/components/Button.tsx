@@ -36,6 +36,59 @@ const ButtonPrimary: React.FC<{
   );
 };
 
+type ButtonEmailProps = {
+  href?: string;
+  target?: string;
+  onClick?: () => void;
+  label: string;
+  icon?: string;
+  className?: string;
+} & React.HTMLAttributes<HTMLElement>;
+
+const ButtonEmail: React.FC<ButtonEmailProps> = ({
+  href,
+  target = "_self",
+  onClick,
+  label,
+  icon,
+  className = "",
+  ...props
+}) => {
+  if (href) {
+    return (
+      <a
+        href={href}
+        target={target}
+        className={`btn btn-primary ${className}`}
+        onClick={onClick}
+        {...props} // Spread additional attributes like data-tooltips
+      >
+        {label}
+        {icon && (
+          <span className="material-symbols-rounded" aria-hidden="true">
+            {icon}
+          </span>
+        )}
+      </a>
+    );
+  }
+
+  return (
+    <button
+      className={`btn btn-primary ${className}`}
+      onClick={onClick}
+      {...props}
+    >
+      {label}
+      {icon && (
+        <span className="material-symbols-rounded" aria-hidden="true">
+          {icon}
+        </span>
+      )}
+    </button>
+  );
+};
+
 const ButtonOutline: React.FC<{
   href?: string;
   target?: string;
@@ -71,4 +124,4 @@ const ButtonOutline: React.FC<{
   );
 };
 
-export { ButtonPrimary, ButtonOutline };
+export { ButtonPrimary, ButtonOutline, ButtonEmail };

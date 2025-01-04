@@ -9,45 +9,51 @@ const works = [
       projectLink: 'https://github.com/Saw-Pyae-Sone/Job-Portal.git'
     },
     {
-      imgSrc: '/project-2.jpg',
+      imgSrc: '/interior.png',
       title: 'Interior Design Studio',
       tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design'],
       projectLink: 'https://pixstock-official.vercel.app/'
     },
     {
-      imgSrc: '/project-3.jpg',
+      imgSrc: '/threeb.png',
       title: 'Car Booking App',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'PHPMailer'],
       projectLink: 'https://pixstock-official.vercel.app/'
     },
     {
-      imgSrc: '/project-4.jpg',
+      imgSrc: '/foodorder.png',
       title: 'Food Order Website',
       tags: ['JavaScript','PHP','Web-design', 'CSS'],
       projectLink: 'https://github.com/codewithsadee-org/wealthome'
     },
     {
-      imgSrc: '/project-5.jpg',
+      imgSrc: '/travel.png',
       title: 'Travel Website',
       tags: ['PHP', 'JavaScript', 'CSS', 'SCSS', 'Development'],
       projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
     },
     {
-      imgSrc: '/project-6.jpg',
+      imgSrc: '/admin1.png',
       title: 'Admin Dashboard',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'CRUD', 'Reports'],
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
     },
     {
-      imgSrc: '/project-6.jpg',
+      imgSrc: '/disease.png',
       title: 'Diseases Prediction System',
       tags: ['Python', 'Cython', 'JavaScript', 'CSS', 'Native Bayes Algorithm'],
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
     },
     {
-      imgSrc: '/project-6.jpg',
+      imgSrc: '/portfolio.png',
       title: 'Developer Portfolio Site',
       tags: ['TypeScript', 'Next.js', 'JavaScript', 'Tailwind CSS', 'React'],
+      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    },
+    {
+      imgSrc: '/admin2.png',
+      title: 'Admin Control Panel',
+      tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'CRUD', 'Reports'],
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
     },
   ];

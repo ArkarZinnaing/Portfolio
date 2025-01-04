@@ -12,49 +12,49 @@ const works = [
       imgSrc: '/interior.png',
       title: 'Interior Design Studio',
       tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Interior-Design-Studio'
     },
     {
       imgSrc: '/threeb.png',
       title: 'Car Booking App',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'PHPMailer'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Car-Booking-System'
     },
     {
       imgSrc: '/foodorder.png',
       title: 'Food Order Website',
       tags: ['JavaScript','PHP','Web-design', 'CSS'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Food-Order'
     },
     {
       imgSrc: '/travel.png',
       title: 'Travel Website',
       tags: ['PHP', 'JavaScript', 'CSS', 'SCSS', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/travel-project'
     },
     {
       imgSrc: '/admin1.png',
       title: 'Admin Dashboard',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'CRUD', 'Reports'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/travel-project'
     },
     {
       imgSrc: '/disease.png',
       title: 'Diseases Prediction System',
       tags: ['Python', 'Cython', 'JavaScript', 'CSS', 'Native Bayes Algorithm'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Diseases-Prediction-System'
     },
     {
       imgSrc: '/portfolio.png',
       title: 'Developer Portfolio Site',
       tags: ['TypeScript', 'Next.js', 'JavaScript', 'Tailwind CSS', 'React'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Portfolio'
     },
     {
       imgSrc: '/admin2.png',
       title: 'Admin Control Panel',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'CRUD', 'Reports'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Car-Booking-System'
     },
   ];
 

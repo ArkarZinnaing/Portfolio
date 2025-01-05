@@ -4,7 +4,7 @@ import Image from 'next/image';
 const aboutItems = [
     {
       label: 'Project done',
-      number: 8
+      number: 11
     },
     {
       label: 'Years of experience',

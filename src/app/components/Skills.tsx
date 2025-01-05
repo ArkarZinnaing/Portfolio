@@ -62,6 +62,26 @@ const skillItem = [
         label: 'Django',
         desc: 'Web Framework'
     },
+    {
+      imgSrc: '/c--4.svg',
+      label: 'C#',
+      desc: 'Object-Oriented Programming Language'
+    },
+    {
+      imgSrc: '/css-3.svg',
+      label: 'CSS',
+      desc: 'Styling for Web Pages'
+    },
+    {
+      imgSrc: '/wordpress-icon.svg',
+      label: 'WordPress',
+      desc: 'Content Management System'
+    },
+    {
+      imgSrc: '/laravel-2.svg',
+      label: 'Laravel',
+      desc: 'PHP Web Framework'
+    },
   ];
 
 const Skills = () => {
@@ -73,7 +93,7 @@ const Skills = () => {
             </h2>
 
             <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
-            Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
+            Discover the powerful tools and technologies I use to create exceptional, high-performing websites, Games & applications.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">

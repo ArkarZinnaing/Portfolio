@@ -3,22 +3,34 @@ import ProjectCard from './ProjectCard';
 
 const works = [
     {
-      imgSrc: '/job-portal.png',
-      title: 'Job Portal App',
-      tags: ['PHP', 'CSS', 'JavaScript','SCSS','API','SEO'],
-      projectLink: 'https://github.com/Saw-Pyae-Sone/Job-Portal.git'
-    },
-    {
       imgSrc: '/interior.png',
       title: 'Interior Design Studio',
       tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design','API'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Interior-Design-Studio'
     },
     {
+      imgSrc: '/game.png',
+      title: 'Sokoban Game',
+      tags: ['Sokoban', 'C#', 'Game-Design','Algorithms','Math','Physics'],
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Sokoban-Game'
+    },
+    {
+      imgSrc: '/disease.png',
+      title: 'Diseases Prediction System',
+      tags: ['Python', 'Cython', 'JavaScript', 'API', 'Native Bayes Algorithm'],
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Diseases-Prediction-System'
+    },
+    {
       imgSrc: '/threeb.png',
       title: 'Car Booking App',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'PHPMailer','Session'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Car-Booking-System'
+    },
+    {
+      imgSrc: '/job-portal.png',
+      title: 'Job Portal App',
+      tags: ['PHP', 'CSS', 'JavaScript','SCSS','API','SEO'],
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Job-Portal.git'
     },
     {
       imgSrc: '/foodorder.png',
@@ -37,12 +49,6 @@ const works = [
       title: 'Admin Dashboard',
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'CRUD', 'Reports'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/travel-project'
-    },
-    {
-      imgSrc: '/disease.png',
-      title: 'Diseases Prediction System',
-      tags: ['Python', 'Cython', 'JavaScript', 'API', 'Native Bayes Algorithm'],
-      projectLink: 'https://github.com/Saw-Pyae-Sone/Diseases-Prediction-System'
     },
     {
       imgSrc: '/portfolio.png',

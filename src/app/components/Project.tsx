@@ -5,25 +5,25 @@ const works = [
     {
       imgSrc: '/job-portal.png',
       title: 'Job Portal App',
-      tags: ['PHP', 'CSS', 'JavaScript','SCSS'],
+      tags: ['PHP', 'CSS', 'JavaScript','SCSS','API','SEO'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Job-Portal.git'
     },
     {
       imgSrc: '/interior.png',
       title: 'Interior Design Studio',
-      tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design'],
+      tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design','API'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Interior-Design-Studio'
     },
     {
       imgSrc: '/threeb.png',
       title: 'Car Booking App',
-      tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'PHPMailer'],
+      tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'PHPMailer','Session'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Car-Booking-System'
     },
     {
       imgSrc: '/foodorder.png',
       title: 'Food Order Website',
-      tags: ['JavaScript','PHP','Web-design', 'CSS'],
+      tags: ['JavaScript','PHP','Web-design', 'CSS', 'Cookies'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Food-Order'
     },
     {
@@ -41,7 +41,7 @@ const works = [
     {
       imgSrc: '/disease.png',
       title: 'Diseases Prediction System',
-      tags: ['Python', 'Cython', 'JavaScript', 'CSS', 'Native Bayes Algorithm'],
+      tags: ['Python', 'Cython', 'JavaScript', 'API', 'Native Bayes Algorithm'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Diseases-Prediction-System'
     },
     {

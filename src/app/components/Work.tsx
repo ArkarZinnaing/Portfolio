@@ -15,19 +15,16 @@ export default function Work() {
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - Persent </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Card grid component
+              📌 Designing and implementing the website&apos;s frontend using HTML, CSS and Tailwind CSS.
             </div>
-            <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Startup template Aceternity
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              📌 Ensuring responsive design for seamless use across devices.
             </div>
-            <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Random file upload lol
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              📌 Collaborating with the restaurant team to gather requirements and provide updates.
             </div>
-            <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Salman Bhai Fan Club registrations open
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              📌 Styled the interface with a focus on readability and accessibility using TailwindCSS.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -126,7 +123,7 @@ export default function Work() {
       title: "Early 2024",
       content: (
         <div>
-          <h4 className="headline-2 mb-5">University of Central Lancashire</h4>
+          <h4 className="headline-2 mb-5">University of Central Lancashire UK</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
             Bachelor of Science (B.Sc), First Class Honours, Business Computing and Information Systems 
           </p>

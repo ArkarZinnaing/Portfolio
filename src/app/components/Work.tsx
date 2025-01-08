@@ -66,24 +66,24 @@ export default function Work() {
         <div>
           <h4 className="headline-2 mb-5">Front-End Developer Internship</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-            As a freelancer, I am currently working on a food ordering website for the Burmese Restaurant called Burmese Bites
+            Frontend Developer Intern at Tech Solutions, assisting with the development and maintenance of user interfaces for web applications.
           </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - Persent </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Card grid component
+              📌 Assisted in building responsive user interfaces using HTML, CSS, and JavaScript.
             </div>
             <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Startup template Aceternity
+              📌 Worked with senior developers to implement interactive elements.
             </div>
             <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Random file upload lol
+              📌 Developed reusable components and ensured UI consistency across different pages.
             </div>
             <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Himesh Reshammiya Music CD
+              📌 Participated in code reviews and collaborated with the design team to refine the look and feel of the application.
             </div>
             <div className="flex gap-2 items-center text-zinc-700 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Salman Bhai Fan Club registrations open
+              📌 Gained hands-on experience with version control tools like Git and GitHub.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

@@ -18,6 +18,7 @@ export default function NavHeader() {
               width={40}
               height={40}
               alt="logo"
+              loading="lazy"
             />
           </Link>
         </h1>

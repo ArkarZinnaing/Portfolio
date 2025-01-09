@@ -8,9 +8,9 @@ export default function Work() {
       title: "2025",
       content: (
         <div>
-          <h4 className="headline-2 mb-5">Front-End Engineer</h4>
+          <h4 className="headline-2 mb-5">Freelance Web Developer</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-            I am currently working on a food ordering website (Freelance Project) for the Burmese Restaurant called Burmese Bites.
+            I am currently freelancing on Upwork and working on a food ordering website (Freelance Project) for the Burmese Restaurant called Burmese Bites.
           </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - Persent </p>
           <div className="mb-8">

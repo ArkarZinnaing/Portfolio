@@ -89,11 +89,11 @@ const Footer = () => {
 
             <div className="flex items-center justify-between pt-8 mb-8">
                 <Link href="/" className='logo reveal-up'>
-                    <Image src="/logo.png" alt='Logo' width={40} height={40} />
+                    <Image src="/logo.png" alt='Logo' width={40} height={40} loading='lazy' />
                 </Link>
 
                 <p className='text-zinc-500 text-sm reveal-up'>
-                    &copy; {new Date().getFullYear()} <span className='text-zinc-200'>SawPyaeSone</span>
+                    &copy; {new Date().getFullYear()} <span className='text-zinc-200'>SawPyaeSone: This project is built by using Next.js and Tailwind CSS</span>
                 </p>
             </div>
         </div>

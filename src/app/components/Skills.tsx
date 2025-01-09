@@ -78,9 +78,9 @@ const skillItem = [
       desc: 'Content Management System'
     },
     {
-      imgSrc: '/laravel-2.svg',
-      label: 'Laravel',
-      desc: 'PHP Web Framework'
+      imgSrc: '/docker.svg',
+      label: 'Docker',
+      desc: 'Containerization Platform'
     },
   ];
 

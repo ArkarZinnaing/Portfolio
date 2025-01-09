@@ -19,6 +19,8 @@ const About = () => {
             <div className='bg-zinc-800/50 p-7 rounded-2xl md:p-12 mt-10 reveal-up'>
                 <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                     Welcome! I&apos;m Saw Pyae Sone, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
+
+                    Welcome! I&apos;m Saw Pyae Sone and software engineer, expertise in back-end development with Node.js but programming languages are just a tool for me. I can adopt and learning anything because I mastered OOL (Object Oriented Language).
                 </p>
 
                 <div className="flex flex-wrap items-center gap-4 md:gap-7">

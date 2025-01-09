@@ -12,7 +12,7 @@ export default function Work() {
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
             I am currently freelancing on Upwork and working on a food ordering website (Freelance Project) for the Burmese Restaurant called Burmese Bites.
           </p>
-          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - Persent </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> July 2024 - Persent </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               📌 Designing and implementing the website&apos;s frontend using HTML, CSS and Tailwind CSS.
@@ -24,7 +24,7 @@ export default function Work() {
               📌 Collaborating with the restaurant team to gather requirements and provide updates.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Styled the interface with a focus on readability and accessibility using TailwindCSS.
+              📌 Styling the interface with a focus on readability and accessibility using TailwindCSS.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -64,52 +64,52 @@ export default function Work() {
       title: "Late 2024",
       content: (
         <div>
-          <h4 className="headline-2 mb-5">Front-End Developer Internship</h4>
+          <h4 className="headline-2 mb-5">Travel Website</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-            Frontend Developer Intern at Tech Solutions, assisting with the development and maintenance of user interfaces for web applications.
+            I&apos;ve developed a travel website (freelance work) where users can book travel packages and view destinations.
           </p>
-          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - Persent </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> April 2024 - June 2024 </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               📌 Assisted in building responsive user interfaces using HTML, CSS, and JavaScript.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Worked with senior developers to implement interactive elements.
+              📌 Developed reusable components and ensured UI consistency across various pages.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Developed reusable components and ensured UI consistency across different pages.
+              📌 Used a MySQL database for storage and SQL queries for data extraction with JOINS.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Participated in code reviews and collaborated with the design team to refine the look and feel of the application.
+              📌 Gained experience with version control tools such as Git and GitHub.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Gained hands-on experience with version control tools like Git and GitHub.
+              📌 Implemented an admin panel with PHP, MySQL, and JavaScript, enabling the admin to view and analyze visualized reports and perform CRUD operations for products.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/1.png"
+              src="/travel-1.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/2.png"
+              src="/travel-2.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/3.png"
+              src="/travel-3.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/4.png"
+              src="/travel-4.png"
               alt="startup template"
               width={500}
               height={500}

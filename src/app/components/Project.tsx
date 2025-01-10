@@ -3,12 +3,6 @@ import ProjectCard from './ProjectCard';
 
 const works = [
     {
-      imgSrc: '/interior.png',
-      title: 'Interior Design Studio',
-      tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design','API'],
-      projectLink: 'https://github.com/Saw-Pyae-Sone/Interior-Design-Studio'
-    },
-    {
       imgSrc: '/game.png',
       title: 'Sokoban Game',
       tags: ['Sokoban', 'C#', 'Game-Design','Algorithms','Math','Physics'],
@@ -37,6 +31,12 @@ const works = [
       title: 'Food Order Website',
       tags: ['JavaScript','PHP','Web-design', 'CSS', 'Cookies'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Food-Order'
+    },
+    {
+      imgSrc: '/interior.png',
+      title: 'Interior Design Studio',
+      tags: ['PHP', 'CSS', 'JavaScript','SCSS','Web-design','API'],
+      projectLink: 'https://github.com/Saw-Pyae-Sone/Interior-Design-Studio'
     },
     {
       imgSrc: '/travel.png',

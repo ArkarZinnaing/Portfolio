@@ -39,7 +39,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="headline-2">
-          Work Experiences
+          Professional Experiences
         </h2>
         <p className="text-zinc-50 dark:text-neutral-300 text-sm md:text-base max-w-sm">
           I&apos;ve been working as a web developer for the past year. Here&apos;s

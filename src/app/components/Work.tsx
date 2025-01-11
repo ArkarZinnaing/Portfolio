@@ -123,6 +123,23 @@ export default function Work() {
           </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>GPA:</strong> 3.7/4.0 </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-8"><strong>Duration:</strong> September 2019 - March 2024 </p>
+          <div className="mb-8">
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              🎓 Advanced Database Management Systems
+            </div>
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              🎓 Corporate Communication Systems Management
+            </div>
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+             🎓 eBusiness
+            </div>
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+             🎓 Managing Information Systems Projects
+            </div>
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+             🎓 Information Systems Project
+            </div>
+          </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/uclan4.jpg"

@@ -21,13 +21,6 @@ const About = () => {
                     Welcome! I&apos;m Saw Pyae Sone, a full-stack web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
                 </p>
 
-                <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm mb-5">
-                    📌 I&apos;m freelancing on Upwork
-                </div>
-                <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm mb-5">
-                    📌 I&apos;m good at problem-solving
-                </div>
-
                 <div className="flex flex-wrap items-center gap-4 md:gap-7">
                     {
                         aboutItems.map(({label, number}, key)=>(

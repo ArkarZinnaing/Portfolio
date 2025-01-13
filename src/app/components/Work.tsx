@@ -20,6 +20,9 @@ export default function Work() {
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               👨🏻‍💻 Learning React-Native
             </div>
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              👨🏻‍💻 Working on a Multi-Tenant Event Management System using Node.js, Express.js, MongoDB, RESTful API, and React.
+            </div>
           </div>
           {/* <div className="grid grid-cols-2 gap-4">
             <Image

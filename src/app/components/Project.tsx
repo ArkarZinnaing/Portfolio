@@ -62,6 +62,12 @@ const works = [
       tags: ['PHP', 'CSS', 'SCSS', 'JavaScript', 'CRUD', 'Reports'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/Car-Booking-System'
     },
+    {
+      imgSrc: '/nodepj.png',
+      title: 'Backend Project',
+      tags: ['Node.js', 'Express.js', 'Prisma', 'PostgreSQL', 'SQLite', 'Docker'],
+      projectLink: 'https://github.com/Saw-Pyae-Sone/NodeJS-Project.git'
+    },
   ];
 
 const Project = () => {

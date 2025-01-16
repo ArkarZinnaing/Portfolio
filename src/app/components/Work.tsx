@@ -8,7 +8,7 @@ export default function Work() {
       title: "2025",
       content: (
         <div>
-          <h4 className="headline-2 mb-5">Freelance Web Developer</h4>
+          <h4 className="headline-2 mb-5">Freelance Full-Stack Web Developer</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
             I&apos;m currently freelancing on Upwork and available for work.
           </p>

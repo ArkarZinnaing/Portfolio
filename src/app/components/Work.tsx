@@ -15,7 +15,7 @@ export default function Work() {
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> December 2024 - Present </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              💼 Contact Me for Web Development and Web Design
+              💼 Contact Me for Web Development, Web Applications and Web Design
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               👨🏻‍💻 Relearning C# and .Net

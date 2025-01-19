@@ -18,7 +18,7 @@ export default function Work() {
               💼 Contact Me for Web Development, Web Applications and Web Design
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              👨🏻‍💻 Relearning C# and .Net
+              👨🏻‍💻 Relearning C# and .Net to develop 2D indie games
             </div>
           </div>
           {/* <div className="grid grid-cols-2 gap-4">

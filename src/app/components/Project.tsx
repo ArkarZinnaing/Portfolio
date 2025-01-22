@@ -64,7 +64,7 @@ const works = [
     },
     {
       imgSrc: '/nodepj.png',
-      title: 'Backend Project',
+      title: 'RESTful Api Project',
       tags: ['Node.js', 'Express.js', 'Prisma', 'PostgreSQL', 'SQLite', 'Docker'],
       projectLink: 'https://github.com/Saw-Pyae-Sone/NodeJS-Project.git'
     },

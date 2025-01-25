@@ -55,23 +55,28 @@ export default function Work() {
       ),
     },
     {
-      title: "2024",
+      title: "Late 2024",
       content: (
         <div>
-          <h4 className="headline-2 mb-5">Food Ordering Website</h4>
+          <h4 className="headline-2 mb-5">Food Delivery Web App</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-            I developed a food ordering website (Freelance Project) for a Burmese restaurant called Burmese Bites, enabling users to browse the menu and place delivery orders.
+            I developed a food delivery web app (Freelance Project) for a Burmese restaurant called Burmese Bites, enabling users to browse the menu and place delivery orders.
           </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Role:</strong> Full-Stack Developer </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - November 2024 </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Reason of leaving:</strong> Completed a project sourced from a personal network referral.</p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               📌 Designed and implemented a responsive and visually appealing frontend using HTML, CSS, and Tailwind CSS, ensuring a seamless user experience across all devices.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Applied best practices in accessibility and readability to deliver an intuitive interface.
+              📌 Developed backend services using PHP and integrated them with the server to ensure smooth interactions, durability, and reliability of the application.
             </div>
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               📌 Collaborated closely with the restaurant team to gather requirements, provide progress updates, and align the website with their business goals.
+            </div>
+            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+              📌 MySQL was for storage of the users’ data and displaying dynamic data on the web app, and SQL Queries were used for CRUD operations and retrieved reporting data to analyse.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -111,11 +116,13 @@ export default function Work() {
       title: "2024",
       content: (
         <div>
-          <h4 className="headline-2 mb-5">Travel Website</h4>
+          <h4 className="headline-2 mb-5">Travel Web App</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-            I&apos;ve developed a travel website (freelance work) where users can book travel packages and view destinations.
+            I&apos;ve developed a travel web app (freelance work) where users can book travel packages and view destinations.
           </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Role:</strong> Full-Stack Developer </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> April 2024 - June 2024 </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Reason of leaving:</strong> Completed a project sourced from a personal network referral.</p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               📌 Engineered dynamic, responsive user interfaces using HTML, CSS, and JavaScript, ensuring optimal performance across various devices.
@@ -223,62 +230,62 @@ export default function Work() {
         </div>
       ),
     },
-    {
-      title: "2023",
-      content: (
-        <div>
-          <h4 className="headline-2 mb-5">Interior Design Studio Website</h4>
-          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-              I&apos;ve developed a interior design studio website (freelance work) where users can purchase the furnitures to decorate their room or living room as they wanted.
-          </p>
-          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> August 2023 - September 2023 </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Developed a scalable e-commerce platform using HTML, CSS, JavaScript, and PHP.
-            </div>
-            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Designed a custom admin panel, reducing manual administrative workload by 30% and streamlining website management.
-            </div>
-            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Optimised database performance by effectively using JOINS and UNIONS in MySQL, achieving a 15% improvement in query execution speed.
-            </div>
-            <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
-              📌 Utilized Git for version control to track changes and maintain code quality throughout the development lifecycle.
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/design1.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/design2.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/design3.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/design4.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-          </div>
-        </div>
-      ),
-    },
+    // {
+    //   title: "2023",
+    //   content: (
+    //     <div>
+    //       <h4 className="headline-2 mb-5">Interior Design Studio Website</h4>
+    //       <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
+    //           I&apos;ve developed a interior design studio website (freelance work) where users can purchase the furnitures to decorate their room or living room as they wanted.
+    //       </p>
+    //       <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> August 2023 - September 2023 </p>
+    //       <div className="mb-8">
+    //         <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+    //           📌 Developed a scalable e-commerce platform using HTML, CSS, JavaScript, and PHP.
+    //         </div>
+    //         <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+    //           📌 Designed a custom admin panel, reducing manual administrative workload by 30% and streamlining website management.
+    //         </div>
+    //         <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+    //           📌 Optimised database performance by effectively using JOINS and UNIONS in MySQL, achieving a 15% improvement in query execution speed.
+    //         </div>
+    //         <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
+    //           📌 Utilized Git for version control to track changes and maintain code quality throughout the development lifecycle.
+    //         </div>
+    //       </div>
+    //       <div className="grid grid-cols-2 gap-4">
+    //         <Image
+    //           src="/design1.png"
+    //           alt="startup template"
+    //           width={500}
+    //           height={500}
+    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+    //         />
+    //         <Image
+    //           src="/design2.png"
+    //           alt="startup template"
+    //           width={500}
+    //           height={500}
+    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+    //         />
+    //         <Image
+    //           src="/design3.png"
+    //           alt="startup template"
+    //           width={500}
+    //           height={500}
+    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+    //         />
+    //         <Image
+    //           src="/design4.png"
+    //           alt="startup template"
+    //           width={500}
+    //           height={500}
+    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+    //         />
+    //       </div>
+    //     </div>
+    //   ),
+    // },
   ];
   return (
     <div className="w-full">

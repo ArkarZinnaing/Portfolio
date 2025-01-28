@@ -60,10 +60,10 @@ export default function Work() {
         <div>
           <h4 className="headline-2 mb-5">Food Delivery Web App</h4>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-base font-normal mb-5">
-            I developed a food delivery web app (Freelance Project) for a Burmese restaurant called Burmese Bites, enabling users to browse the menu and place delivery orders.
+            I developed a food delivery web app (Freelance Project) for a Burmese restaurant called 3K Restaurant, enabling users to browse the menu and place delivery orders.
           </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Role:</strong> Full-Stack Developer </p>
-          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - November 2024 </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Duration:</strong> October 2024 - December 2024 </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>Reason of leaving:</strong> Completed a project sourced from a personal network referral.</p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">

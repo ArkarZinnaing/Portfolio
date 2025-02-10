@@ -179,7 +179,7 @@ export default function Work() {
             Bachelor of Science (B.Sc), First Class Honours, Business Computing and Information Systems 
           </p>
           <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-5"><strong>GPA:</strong> 3.7/4.0 </p>
-          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-8"><strong>Duration:</strong> September 2019 - March 2024 </p>
+          <p className="text-zinc-50 dark:text-neutral-200 text-sm md:text-sm font-normal mb-8"><strong>Duration:</strong> September 2019 - September 2024 </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-300 dark:text-neutral-300 text-xs md:text-sm">
               🎓 Advanced Database Management Systems
